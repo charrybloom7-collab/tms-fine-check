@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TMS Traffic Fine Check | Complete Tanzania Guide 2026</title>
+<meta name="description" content="TMS Traffic Fine Check — a complete 2026 Tanzania guide to checking traffic offenses by vehicle registration, driving license, or reference number.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#10241C;
+    --ink-soft:#16332A;
+    --paper:#F5F7F5;
+    --card:#FFFFFF;
+    --green:#1E7A4C;
+    --green-deep:#145C39;
+    --amber:#D98E2B;
+    --red:#C0392B;
+    --slate:#4E5F58;
+    --slate-light:#8AA096;
+    --line:#E1E8E3;
+    --radius:14px;
+    --shadow:0 8px 24px -12px rgba(16,36,28,0.18);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:'Inter',sans-serif; font-size:16px; line-height:1.65; -webkit-font-smoothing:antialiased;}
+  h1,h2,h3,.brand{font-family:'Sora',sans-serif;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  a{color:var(--green-deep);}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
+
+  header{position:sticky; top:0; z-index:50; background:var(--ink); border-bottom:1px solid rgba(255,255,255,0.08);}
+  header .wrap{display:flex; align-items:center; justify-content:space-between; gap:16px; height:68px; white-space:nowrap; overflow-x:auto;}
+  .brand{color:#fff; font-size:19px; font-weight:700; letter-spacing:-0.01em; display:flex; align-items:center; gap:9px; flex-shrink:0;}
+  .brand .dot{width:9px;height:9px;border-radius:50%; background:var(--amber); box-shadow:0 0 0 4px rgba(217,142,43,0.22);}
+  .brand .yr{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--amber); background:rgba(217,142,43,0.14); padding:2px 7px; border-radius:5px; margin-left:2px;}
+  nav{display:flex; align-items:center; gap:24px;}
+  nav a{color:rgba(255,255,255,0.72); text-decoration:none; font-size:14px; font-weight:500; transition:color .2s ease;}
+  nav a:hover{color:#fff;}
+  .nav-cta{background:var(--green); color:#fff !important; padding:9px 18px; border-radius:999px; font-weight:600 !important;}
+  .nav-cta:hover{background:var(--green-deep);}
+
+  .hero{background:radial-gradient(circle at 84% -10%, rgba(30,122,76,0.38), transparent 55%), linear-gradient(180deg, var(--ink) 0%, var(--ink-soft) 100%); color:#fff; padding:70px 0 86px;}
+  .eyebrow{display:inline-flex; align-items:center; gap:8px; font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--amber); background:rgba(217,142,43,0.12); border:1px solid rgba(217,142,43,0.3); padding:6px 12px; border-radius:999px; margin-bottom:22px;}
+  .hero h1{font-size:clamp(28px,4.2vw,45px); line-height:1.12; font-weight:800; letter-spacing:-0.02em; margin:0 0 20px; max-width:820px;}
+  .hero h1 span{color:var(--green);}
+  .hero-intro{font-size:16.5px; color:rgba(255,255,255,0.78); max-width:660px; margin:0 0 15px;}
+  .hero-intro a{color:#fff; font-weight:600; text-decoration:underline; text-decoration-color:var(--amber); text-underline-offset:3px;}
+  .hero-intro a:hover{text-decoration-color:#fff;}
+  .btn{display:inline-block; background:var(--green); color:#fff; text-decoration:none; font-weight:600; padding:13px 26px; border-radius:999px; font-size:15px; margin-top:14px; transition:background .2s ease, transform .2s ease;}
+  .btn:hover{background:var(--green-deep); transform:translateY(-1px);}
+
+  /* SIGNATURE — 3-step process */
+  .process-card{background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12); border-radius:18px; padding:24px; backdrop-filter:blur(6px);}
+  .process-label{font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:.05em; text-transform:uppercase; color:var(--slate-light); margin-bottom:18px;}
+  .process-step{display:flex; gap:14px; align-items:flex-start; padding:14px 0; border-top:1px solid rgba(255,255,255,0.08);}
+  .process-step:first-of-type{border-top:none; padding-top:0;}
+  .process-step .pnum{
+    flex-shrink:0; width:30px; height:30px; border-radius:50%;
+    background:var(--green); color:#fff; font-family:'Sora',sans-serif; font-weight:700; font-size:13px;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .process-step .ptxt h4{margin:0 0 3px; font-size:14.5px; color:#fff; font-family:'Sora',sans-serif;}
+  .process-step .ptxt p{margin:0; font-size:13px; color:rgba(255,255,255,0.6); max-width:none;}
+
+  section.block{padding:58px 0;}
+  section.block.alt{background:var(--card);}
+  .kicker{font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--green-deep); font-weight:600; margin-bottom:10px;}
+  h2{font-size:clamp(22px,3vw,30px); font-weight:700; letter-spacing:-0.01em; margin:0 0 16px; color:var(--ink);}
+  .lede{color:var(--slate); font-size:16.5px; max-width:760px;}
+  p{color:var(--slate); max-width:760px;}
+  .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:36px; align-items:start;}
+  @media(max-width:820px){.grid-2{grid-template-columns:1fr;}}
+
+  .tick-list{list-style:none; margin:20px 0 0; padding:0; display:grid; grid-template-columns:1fr 1fr; gap:10px 20px;}
+  @media(max-width:600px){.tick-list{grid-template-columns:1fr;}}
+  .tick-list li{display:flex; gap:10px; align-items:flex-start; font-size:14.5px; color:var(--ink); background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:11px 14px;}
+  .tick-list li::before{content:"✓"; flex-shrink:0; color:var(--green); font-weight:700;}
+
+  .method-cards{display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:26px;}
+  @media(max-width:820px){.method-cards{grid-template-columns:1fr;}}
+  .method-card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:22px; box-shadow:var(--shadow);}
+  .method-card .icon{width:38px; height:38px; border-radius:10px; background:rgba(30,122,76,0.1); color:var(--green-deep); display:flex; align-items:center; justify-content:center; font-family:'Sora',sans-serif; font-weight:700; margin-bottom:14px;}
+  .method-card h3{font-size:16px; margin:0 0 8px; color:var(--ink);}
+  .method-card p{font-size:14px; margin:0; color:var(--slate);}
+
+  .req-table{width:100%; border-collapse:collapse; background:var(--card); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow); margin-top:24px;}
+  .req-table th{text-align:left; background:var(--ink); color:#fff; font-family:'Sora',sans-serif; font-size:13px; letter-spacing:.02em; padding:13px 16px;}
+  .req-table td{padding:13px 16px; border-top:1px solid var(--line); font-size:14px; color:var(--slate); vertical-align:top;}
+  .req-table tr:nth-child(even) td{background:#FAFBFA;}
+  .req-table td:first-child{font-family:'Sora',sans-serif; font-weight:600; color:var(--ink); white-space:nowrap;}
+
+  .callout{border-left:3px solid var(--green); background:linear-gradient(90deg, rgba(30,122,76,0.06), transparent); padding:18px 22px; border-radius:0 10px 10px 0; margin:22px 0; max-width:760px;}
+  .callout p{margin:0; color:var(--ink); font-size:15px; max-width:none;}
+  .callout strong{color:var(--green-deep);}
+  .callout.warn{border-left-color:var(--red); background:linear-gradient(90deg, rgba(192,57,43,0.06), transparent);}
+  .callout.warn strong{color:var(--red);}
+
+  .two-col-cards{display:grid; grid-template-columns:repeat(2,1fr); gap:20px;}
+  @media(max-width:700px){.two-col-cards{grid-template-columns:1fr;}}
+  .mini-card{background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); padding:22px;}
+  .mini-card h3{font-size:16.5px; margin:0 0 8px; color:var(--ink); font-family:'Sora',sans-serif;}
+  .mini-card p{font-size:14.5px; margin:0 0 10px; color:var(--slate); max-width:none;}
+  .mini-card p:last-child{margin-bottom:0;}
+
+  .faq-item{border-bottom:1px solid var(--line); padding:18px 0;}
+  .faq-item summary{cursor:pointer; font-weight:600; color:var(--ink); font-size:16px; list-style:none; display:flex; justify-content:space-between; align-items:center; gap:12px;}
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{content:"+"; font-size:20px; color:var(--green-deep); font-weight:400; flex-shrink:0;}
+  .faq-item[open] summary::after{content:"–";}
+  .faq-item p{margin:12px 0 0; font-size:14.5px; color:var(--slate); max-width:none;}
+
+  .cta-strip{background:var(--ink); color:#fff; padding:54px 0; text-align:center;}
+  .cta-strip h2{color:#fff;}
+  .cta-strip p{color:rgba(255,255,255,0.72); margin:0 auto 24px; max-width:560px;}
+
+  footer{background:var(--ink); color:rgba(255,255,255,0.6); padding:44px 0 26px; border-top:1px solid rgba(255,255,255,0.08);}
+  .footer-top{display:flex; justify-content:space-between; flex-wrap:wrap; gap:32px; padding-bottom:30px; border-bottom:1px solid rgba(255,255,255,0.08);}
+  .footer-brand .brand{margin-bottom:10px;}
+  .footer-brand p{max-width:320px; font-size:14px; color:rgba(255,255,255,0.5); margin:0;}
+  .footer-cols{display:flex; gap:52px; flex-wrap:wrap;}
+  .footer-col h5{font-family:'Sora',sans-serif; color:#fff; font-size:13.5px; letter-spacing:.03em; text-transform:uppercase; margin:0 0 14px;}
+  .footer-col a{display:block; color:rgba(255,255,255,0.58); text-decoration:none; font-size:14px; margin-bottom:10px; transition:color .2s ease;}
+  .footer-col a:hover{color:#fff;}
+  .footer-bottom{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; padding-top:22px; font-size:13px;}
+  .social-row{display:flex; gap:10px;}
+  .social-row a{width:36px; height:36px; border-radius:50%; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); display:flex; align-items:center; justify-content:center; color:#fff; text-decoration:none; transition:background .2s ease, transform .2s ease;}
+  .social-row a:hover{background:var(--green); transform:translateY(-2px);}
+  .social-row svg{width:16px; height:16px; fill:currentColor;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span>TMS Fine Check<span class="yr">2026</span></div>
+    <nav>
+      <a href="#what-is">What It Is</a>
+      <a href="#methods">Search Methods</a>
+      <a href="#safety">Safety</a>
+      <a href="#faqs">FAQs</a>
+      <a href="https://tmscheck.org" class="nav-cta">Check Fines</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="grid-2" style="align-items:center;">
+      <div>
+        <span class="eyebrow">Tanzania · Updated 2026</span>
+        <h1>TMS Traffic Fine Check: Complete <span>Tanzania Guide 2026</span></h1>
+        <p class="hero-intro">Getting a traffic fine can be stressful, especially when you are not sure whether an offense has been registered against your vehicle or driving record. Fortunately, Tanzania's digital traffic-management services make it easier for motorists to check traffic offenses and outstanding penalties without relying entirely on in-person visits.</p>
+        <p class="hero-intro">A <a href="https://tmscheck.org">TMS traffic fine check</a> allows drivers and vehicle owners to search for traffic-related records using available details such as a vehicle registration number, driving license number, or offense reference. The exact options can depend on the current system and the type of record being searched.</p>
+        <a href="https://tmscheck.org" class="btn">Check My Traffic Status</a>
+      </div>
+      <div class="process-card">
+        <div class="process-label">How a Check Typically Works</div>
+        <div class="process-step">
+          <div class="pnum">1</div>
+          <div class="ptxt"><h4>Enter an identifier</h4><p>Vehicle registration, license number, or offense reference.</p></div>
+        </div>
+        <div class="process-step">
+          <div class="pnum">2</div>
+          <div class="ptxt"><h4>System searches records</h4><p>The database is checked for any matching traffic record.</p></div>
+        </div>
+        <div class="process-step">
+          <div class="pnum">3</div>
+          <div class="ptxt"><h4>Review the result</h4><p>See offense, date, amount, and payment status if found.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="what-is">
+  <div class="wrap">
+    <p class="lede" style="margin-bottom:36px;">This guide explains how the TMS traffic fine system works, what information you need, how to check your records, what to do after finding a fine, and how to handle payment or status-update problems.</p>
+    <div class="grid-2">
+      <div>
+        <div class="kicker">Definition</div>
+        <h2>What Is a TMS Traffic Fine Check?</h2>
+        <p>TMS generally refers to a traffic management system used for handling road-traffic information. In Tanzania, the Tanzania Police Force provides digital services connected with traffic offenses and related records.</p>
+        <p>A TMS traffic fine check is essentially a search that helps a driver determine whether a traffic offense or outstanding penalty is associated with their vehicle, driving license, or reference number.</p>
+        <p>Instead of keeping track of paper documents alone, motorists can use digital services to review available traffic information. This can be particularly helpful when a driver has forgotten the details of an earlier offense or wants to verify the status of a particular fine.</p>
+        <div class="callout warn" style="margin-top:20px;">
+          <p><strong>Note:</strong> It is important to distinguish informational websites from official government services. Before entering sensitive information or making a payment, users should confirm that they are using the appropriate official platform.</p>
+        </div>
+      </div>
+      <div>
+        <div class="kicker">Why It Matters</div>
+        <h2>Why Should You Check Your Traffic Fines?</h2>
+        <p>Ignoring a traffic offense does not necessarily make it disappear. An unpaid penalty may remain associated with a vehicle or driver record, depending on the circumstances and applicable procedures.</p>
+        <p style="margin-bottom:0;">Regularly checking your traffic information can help you:</p>
+        <ul class="tick-list">
+          <li>Discover outstanding traffic penalties</li>
+          <li>Verify an offense you already know about</li>
+          <li>Confirm information connected with your vehicle</li>
+          <li>Keep payment records organized</li>
+          <li>Identify possible errors in traffic records</li>
+          <li>Avoid surprises when handling vehicle-related matters</li>
+        </ul>
+        <p style="margin-top:16px;">A quick check can therefore be useful for both private motorists and people who manage several vehicles.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="wrap">
+    <div class="kicker">The Process</div>
+    <h2>How Does TMS Traffic Fine Checking Work?</h2>
+    <p class="lede">The basic process involves providing an identifier that allows the system to locate the relevant record.</p>
+    <p class="lede">Depending on the available TMS service, you may be able to search with a vehicle registration number, driving license number, or traffic offense reference. Once the information is submitted, the system checks its database and displays any available matching record.</p>
+    <p class="lede">The information shown can vary. A result may include the offense, date, penalty amount, reference details, or payment status.</p>
+    <p class="lede">If no record is found, the system may show that there is no matching outstanding offense. However, users should remember that databases can experience delays, so a missing result should not automatically be treated as conclusive if an offense was issued very recently.</p>
+  </div>
+</section>
+
+<section class="block" id="methods">
+  <div class="wrap">
+    <div class="kicker">Search Options</div>
+    <h2>Three Ways to Run a TMS Traffic Fine Check</h2>
+    <div class="method-cards">
+      <div class="method-card">
+        <div class="icon">01</div>
+        <h3>By Vehicle Registration</h3>
+        <p>Checking by vehicle registration number is useful when you want to find traffic information associated with a particular car or motorcycle. The registration number should be entered exactly as it appears on the vehicle's official documents. Incorrect spacing, letters, or numbers can result in an unsuccessful search. This method can be particularly helpful for vehicle owners who want to review their records periodically, and it can also be useful when verifying the administrative status of a vehicle before an important transaction. However, a registration-based search should not replace proper ownership and vehicle-document verification.</p>
+      </div>
+      <div class="method-card">
+        <div class="icon">02</div>
+        <h3>By Driving License</h3>
+        <p>Another method may involve using a driving license number. This can help locate traffic information connected with a driver's record. License-based checking can be useful when an offense relates more directly to the driver rather than simply the vehicle. If you use this method, make sure that the license information is entered accurately. Never provide your driving license details to an unknown website simply because it uses the words "TMS" or "traffic fine." Verify the website and service before submitting personal information.</p>
+      </div>
+      <div class="method-card">
+        <div class="icon">03</div>
+        <h3>By Reference Number</h3>
+        <p>If you have received a traffic citation or offense notice, it may contain a reference number. Searching with this information can make it easier to locate a specific traffic record. A reference-based search is especially useful when you are investigating one particular offense rather than checking the general status of a vehicle. Keep the original citation or notice until the matter has been resolved — it can provide useful evidence if you later need to clarify an incorrect record.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="wrap">
+    <div class="kicker">Results</div>
+    <h2>What Information Can You See?</h2>
+    <p class="lede">The exact details displayed by a TMS traffic system depend on the record and available service features. A search may provide information relating to the offense and its associated penalty.</p>
+    <table class="req-table">
+      <thead><tr><th>Search Method</th><th>Information Used</th><th>Typical Purpose</th></tr></thead>
+      <tbody>
+        <tr><td>Vehicle Search</td><td>Registration number</td><td>Review vehicle-related offenses</td></tr>
+        <tr><td>License Search</td><td>Driving license number</td><td>Check driver-related records</td></tr>
+        <tr><td>Reference Search</td><td>Offense reference</td><td>Locate a specific fine</td></tr>
+        <tr><td>Mobile Service</td><td>Required account or vehicle details</td><td>Access services by phone</td></tr>
+        <tr><td>Official Online Portal</td><td>Relevant identification details</td><td>Review available traffic records</td></tr>
+      </tbody>
+    </table>
+    <p class="lede" style="margin-top:22px;">Always compare the displayed information with your own documents before assuming that a particular offense belongs to you.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="kicker">Next Steps</div>
+    <h2>What Happens After You Find a Traffic Fine?</h2>
+    <p class="lede">Finding a traffic fine online is only the first step. Read the information carefully and confirm that the vehicle, driver, date, and offense details are correct.</p>
+    <p class="lede">If the record is accurate and remains unpaid, follow the appropriate official payment procedure. Avoid sending money to individuals or unofficial websites that promise to remove a fine.</p>
+    <p class="lede">After payment, keep the receipt, transaction number, or other confirmation. This documentation can be valuable if the online status does not immediately change.</p>
+    <p class="lede">If you believe the offense is incorrect, contact the appropriate authority and follow the official process for resolving or disputing the record.</p>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="wrap">
+    <div class="two-col-cards">
+      <div class="mini-card">
+        <h3>Why Is My Paid Traffic Fine Still Showing?</h3>
+        <p>One common problem is that a fine continues to appear after payment. This can happen when the payment has not yet been synchronized with the traffic database. Processing times may vary depending on the payment channel and government system.</p>
+        <p>Before paying again, check your payment receipt and transaction reference. If the system still shows an outstanding balance after a reasonable period, contact the relevant official authority and provide proof of payment.</p>
+        <p>Keeping documentation is much safer than making a second payment simply because the status has not changed.</p>
+      </div>
+      <div class="mini-card">
+        <h3>What If TMS Shows No Traffic Fine?</h3>
+        <p>A "no fine" result can have several explanations. There may genuinely be no outstanding penalty, or the information entered may not match the official record.</p>
+        <p>Recently issued offenses may also take time to appear in a digital database.</p>
+        <p>If you know that a traffic offense was issued, carefully recheck the registration, license, or reference number. You can also <a href="https://tmscheck.org">verify the information through the appropriate official channel</a> if the result continues to appear inconsistent.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="grid-2">
+      <div>
+        <div class="kicker">On the Go</div>
+        <h2>TMS Traffic Fine Check Using a Mobile Phone</h2>
+        <p>Mobile access makes traffic information more convenient for drivers who do not regularly use a computer.</p>
+        <p>Tanzania's traffic-related digital services have included mobile-based options, but users should confirm the currently supported application, website, or USSD service through an official source before using it.</p>
+        <p>When downloading a traffic-related app, pay attention to the developer, permissions, reviews, and official links. Avoid applications that request unnecessary banking credentials, passwords, or mobile-money PINs.</p>
+      </div>
+      <div>
+        <div class="kicker">Avoid These</div>
+        <h2>Common Mistakes When Checking TMS Fines</h2>
+        <p>Several simple mistakes can prevent users from finding the information they need.</p>
+        <p>Entering an incorrect registration number is one of the most common problems. A single incorrect character can produce no results or lead to confusion.</p>
+        <p>Another mistake is relying on an unofficial website without checking its purpose. Some websites provide informational guides but are not responsible for government records.</p>
+        <p>Users should also avoid assuming that every displayed record is automatically correct. If something looks unusual, compare it with your documents and contact the relevant authority.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="wrap">
+    <div class="kicker">Good Habits</div>
+    <h2>How to Stay Organized With Traffic Records</h2>
+    <p class="lede">Drivers can make future checks easier by keeping their important vehicle and traffic documents organized.</p>
+    <p class="lede">Save copies of payment receipts, offense references, vehicle registration information, and relevant correspondence. Digital copies can be stored securely so they remain accessible when needed.</p>
+    <p class="lede">If you operate multiple vehicles, maintain separate records for each registration number. This can reduce confusion and make it easier to identify which vehicle is associated with a particular offense.</p>
+  </div>
+</section>
+
+<section class="block" id="safety">
+  <div class="wrap">
+    <div class="kicker">Stay Safe</div>
+    <h2>Is TMS Traffic Fine Check Safe?</h2>
+    <p class="lede">The safety of a traffic-fine search depends largely on the platform being used. Official government services are preferable when submitting personal, vehicle, or payment information.</p>
+    <p class="lede">Look carefully at the website address before entering information. Be cautious about pages that request unnecessary sensitive data or promise to eliminate legitimate fines instantly.</p>
+    <div class="callout warn">
+      <p><strong>Remember:</strong> A genuine traffic service should not require you to share your mobile-money PIN, online banking password, or other confidential authentication information with another person.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="wrap">
+    <div class="grid-2">
+      <div>
+        <div class="kicker">The Upside</div>
+        <h2>Benefits of Checking Traffic Fines Online</h2>
+        <p>Digital traffic checking can make life easier for motorists by reducing unnecessary trips and providing quicker access to available records.</p>
+        <p>It can help drivers identify outstanding penalties, verify information, keep payment records organized, and address issues sooner.</p>
+        <p>For businesses operating fleets, digital traffic information can also make administrative management more efficient. Instead of checking records manually for every vehicle, fleet managers can establish a routine for reviewing traffic-related information.</p>
+      </div>
+      <div>
+        <div class="kicker">Before You Buy</div>
+        <h2>TMS Traffic Fine Check for Vehicle Buyers</h2>
+        <p>Checking traffic information can also be useful when purchasing a used vehicle. A buyer should investigate the vehicle's documentation, ownership status, registration, and other relevant records before completing a transaction.</p>
+        <p>Traffic fine information is only one part of proper vehicle due diligence, but it can help identify potential issues that need clarification.</p>
+        <p>Never rely exclusively on a seller's verbal statement that a vehicle has no outstanding problems. Verify important information through appropriate official channels.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="kicker">Final Thoughts</div>
+    <h2>Final Thoughts</h2>
+    <p>A TMS Traffic Fine Check gives Tanzanian motorists a convenient way to review available traffic-offense information associated with a vehicle, driving license, or reference number. It can help drivers identify outstanding fines, verify existing records, and keep their traffic documentation organized.</p>
+    <p>The most important step is to use accurate information and rely on legitimate government channels whenever sensitive information or payments are involved. If a record appears incorrect or a paid fine remains visible, keep your documentation and contact the responsible authority rather than making assumptions.</p>
+    <p>Regular checks can be a simple part of responsible vehicle ownership. By staying informed about traffic records and dealing with valid penalties promptly, drivers can avoid unnecessary confusion and maintain better control over their vehicle-related responsibilities.</p>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <div class="wrap">
+    <h2>Make Traffic Fine Checks a Habit</h2>
+    <p>Stay informed, keep your documentation organized, and always verify through official channels.</p>
+    <a href="https://henrybroke.codeberg.page/tms-fine-check/" class="btn">Run a TMS Check</a>
+  </div>
+</section>
+
+<section class="block" id="faqs">
+  <div class="wrap">
+    <div class="kicker">FAQs</div>
+    <h2>Frequently Asked Questions</h2>
+
+    <details class="faq-item" open>
+      <summary>What is TMS Traffic Fine Check?</summary>
+      <p>TMS Traffic Fine Check is a process for reviewing traffic offense information through Tanzania's traffic-management services. Depending on the available system, users may search using vehicle, license, or offense-reference information.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I check a traffic fine using my vehicle registration number?</summary>
+      <p>Yes, where the service supports registration searches, you can use your vehicle registration number to look for associated traffic records. Enter the number exactly as it appears on your official documents.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I check a fine using my driving license?</summary>
+      <p>A license-based search may be available for records connected with a driver's license. The exact options depend on the current TMS service.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Why can't I find my traffic fine?</summary>
+      <p>Check that your registration, license, or reference number is correct. A recently issued offense may also take time to appear in the system. If you are certain a record should exist, verify it through the appropriate official authority.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What should I do if I already paid but the fine is still showing?</summary>
+      <p>Keep your payment receipt or transaction reference and allow time for the system to update. If the status remains unpaid, contact the relevant authority with your proof of payment before making another payment.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I check TMS traffic fines on my phone?</summary>
+      <p>Mobile access may be available through supported online, application, or USSD services. Always confirm the currently active service through an official source before entering personal information.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Is TMSCheck.org the official government website?</summary>
+      <p>TMSCheck.org is an informational website rather than the Tanzania Police Force's official government portal. Users should verify the official destination before entering sensitive information or making payments.</p>
+    </details>
+    <details class="faq-item">
+      <summary>How often should I check my traffic fines?</summary>
+      <p>There is no universal schedule required for every driver, but periodic checks can help identify outstanding records early, particularly if you frequently drive, operate multiple vehicles, or have recently received a traffic citation.</p>
+    </details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="brand"><span class="dot"></span>TMS Fine Check<span class="yr">2026</span></div>
+        <p>A complete Tanzania guide to checking traffic offenses by vehicle registration, driving license, or reference number.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <a href="#what-is">What It Is</a>
+          <a href="#methods">Search Methods</a>
+          <a href="#safety">Safety</a>
+          <a href="#faqs">FAQs</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="https://tmscheck.org">Check My Status</a>
+          <a href="#">Tanzania Police Force TMS</a>
+          <a href="#">Privacy &amp; Security Tips</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 TMS Fine Check. Informational guide only — always verify through official channels.</span>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></a>
+        <a href="#" aria-label="Twitter/X"><svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7.2 8.3L23 22h-6.6l-5.2-6.8L5.2 22H2l7.7-8.8L1.5 2h6.8l4.7 6.2L18.9 2zm-1.2 18h1.7L7.4 4h-1.8l12.1 16z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2c2.7 0 3.1 0 4.1.1 1.1 0 1.8.2 2.5.5.7.3 1.2.6 1.8 1.2.6.6.9 1.1 1.2 1.8.3.7.5 1.4.5 2.5.1 1 .1 1.4.1 4.1s0 3.1-.1 4.1c0 1.1-.2 1.8-.5 2.5-.3.7-.6 1.2-1.2 1.8-.6.6-1.1.9-1.8 1.2-.7.3-1.4.5-2.5.5-1 .1-1.4.1-4.1.1s-3.1 0-4.1-.1c-1.1 0-1.8-.2-2.5-.5-.7-.3-1.2-.6-1.8-1.2-.6-.6-.9-1.1-1.2-1.8-.3-.7-.5-1.4-.5-2.5C2 15.1 2 14.7 2 12s0-3.1.1-4.1c0-1.1.2-1.8.5-2.5.3-.7.6-1.2 1.2-1.8C4.4 3 4.9 2.7 5.6 2.4c.7-.3 1.4-.5 2.5-.5C9.1 2 9.5 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.9 6.6a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6V21h-4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
